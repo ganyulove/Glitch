@@ -8,8 +8,8 @@ UUID=${UUID:-'144d9618-63d8-47ea-8af6-8c1f5acd8f8c'}
 # NEZHA_PORT=
 # NEZHA_KEY=2
 
-ARGO_AUTH='eyJhIjoiOWNj...' # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_DOMAIN=glitch.xxxxxx.tk
+# ARGO_AUTH='eyJhIjoiOWNj...' # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
+# ARGO_DOMAIN=glitch.xxxxxx.tk
 
 generate_config() {
   cat > config.json << EOF
